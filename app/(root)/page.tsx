@@ -6,7 +6,7 @@ import { podcastData } from '../Sidebarlinks'
 function Home() {
   return (
     <div className='font-extrabold'>Trending
-    <div className='flex flex-wrap justify-center'>
+    <div className='flex mt-4 flex-wrap justify-center'>
       {
         podcastData.map((e: {
           id: number;

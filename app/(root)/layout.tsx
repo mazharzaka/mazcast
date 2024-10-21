@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
   <div className="relative flex ">
     <Leftbar/>
-    <div className="md:ml-40 md:mr-32">{children}</div>
+    <div className="md:ml-40 ml-14">{children}</div>
     <RightSidebar/>
   </div>
   );
