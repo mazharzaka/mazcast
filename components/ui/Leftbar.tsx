@@ -12,7 +12,7 @@ function Leftbar() {
     const pathname=usePathname();
     const router=useRouter()
   return (
-    <section className='h-full w-14 md:w-40 fixed bg-black-2'>
+    <section className='h-full w-14 md:w-52 fixed bg-black-2'>
         <div className='w-full h-16 border-b-2 border-black-3 flex items-center justify-center mt-2 '>
            <Link href="/" className='flex items-center justify-center'>
             <img src="/pngwing.com.png" className='w-11 mr-1'  alt="" />
